@@ -108,7 +108,7 @@ GenoCOPoint <- function(
     rank_data <- compute_centered_rank(filtered_genotypes)
     x_limits <- range(filtered_positions)
     tryCatch({
-      result <- cpt.meanvar(rank_data, method = "PELT", penalty = "MBIC", pen.value = "2*log(n)")
+      result <- cpt.meanvar(rank_data, method = "PELT", penalty = "MBIC")
       change_points <- cpts(result)
       if (length(change_points) > 0) {
         abs_points <- filtered_positions[change_points]
