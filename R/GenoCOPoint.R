@@ -23,7 +23,13 @@
 #' geno_file <- "GenoCOPoint/examples/genofiles/AAACGCTGTGATATAG_smt_genotypes_withname_reads.txt"
 #' truth_file <- "GenoCOPoint/examples/truthfiles/AAACGCTGTGATATAG_allele_cnts_at_markers_sorted_co_pred.txt"
 #' # Run the function
-#' result <- GenoCOPoint(geno_file,truth_file, output_pdf = "example_output.pdf", output_txt = "example_output.txt", window_size = 5, smooth_threshold = 0.6, min_support = 7, consistency = 0.85)
+#' result <- GenoCOPoint(geno_file,truth_file,
+#'                       output_pdf = "example_output.pdf",
+#'                       output_txt = "example_output.txt",
+#'                       window_size = 5,
+#'                       smooth_threshold = 0.6,
+#'                       min_support = 7,
+#'                       consistency = 0.85)
 #' print(result)
 
 #' @export
