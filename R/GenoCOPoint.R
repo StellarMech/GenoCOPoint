@@ -25,12 +25,7 @@
 #' # Run the function
 #' result <- GenoCOPoint(geno_file,truth_file, output_pdf = "example_output.pdf", output_txt = "example_output.txt", window_size = 5, smooth_threshold = 0.6, min_support = 7, consistency = 0.85)
 #' print(result)
-#'
-#' # Clean up
-#' unlink(geno_file)
-#' unlink(truth_file)
-#' unlink("example_output.pdf")
-#' unlink("example_output.txt")
+
 #' @export
 # 主函数：检测变点并生成结果
 GenoCOPoint <- function(
