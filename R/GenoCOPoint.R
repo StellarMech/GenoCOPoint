@@ -233,7 +233,7 @@ GenoCOPoint <- function(
       message("染色体 ", chr_name, " 分析出错：", e$message)
     })
   }
-  dev.off()
+  #dev.off()
   write.table(COresult, file = output_txt, sep = "\t", row.names = FALSE, quote = FALSE)
   cat("该细胞的CO位置数量共计：", length(all_change_points), "个\n")
   return(COresult)
