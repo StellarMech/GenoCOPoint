@@ -58,4 +58,5 @@ result <- GenoCOPoint(geno_file,truth_file,
                       min_support = 7,
                       consistency = 0.85)
 print(result)
+invisible(file.show("example_output.pdf"))
 }

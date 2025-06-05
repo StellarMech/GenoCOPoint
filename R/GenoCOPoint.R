@@ -31,6 +31,7 @@
 #'                       min_support = 7,
 #'                       consistency = 0.85)
 #' print(result)
+#' invisible(file.show("example_output.pdf"))
 
 #' @export
 # 主函数：检测变点并生成结果
