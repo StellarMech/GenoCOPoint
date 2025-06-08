@@ -42,7 +42,7 @@ The file should contain the chromosome name, start and end positions of the CO i
 A list where each element contains the CO positions for a chromosome.
 }
 \description{
-This function reads a genotype file, processes the data, detects CO points and generates a PDF visualization and a result file..
+This function reads a genotype file, a truth file, processes the data, detects CO points and generates a PDF visualization and a result file..
 }
 \examples{
 # Example usage:
