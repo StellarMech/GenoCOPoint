@@ -7,7 +7,7 @@ This package includes a function which reads a genotype file,a truth file, proce
 ```R
 install.package("changepoint")
 ```
-- Secondly, you have two ways to intsall GenoCOPoint
+- Secondly, you should intsall GenoCOPoint-main.zip from [GenoCOPoint](https://github.com/StellarMech/GenoCOPoint)
   - way: unzip in your folder and directly install it
     ```R
      install.package("devtools")
