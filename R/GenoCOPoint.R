@@ -1,6 +1,6 @@
 #' Detect CO Points
 #'
-#' This function reads a genotype file, processes the data, detects CO points and generates a PDF visualization and a result file..
+#' This function reads a genotype file, a truth file, processes the data, detects CO points and generates a PDF visualization and a result file..
 #'
 #' @param geno_file The path to the genotype file with three columns of information 
 #' (name of the chromosome where the SNP is located,
