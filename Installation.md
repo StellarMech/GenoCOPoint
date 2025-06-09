@@ -5,12 +5,12 @@ This package includes a function which reads a genotype file,a truth file, proce
 ## 2. Installation
 - First of all, you need install dependencies required by GenoChangePoint under R, if you do not have them yet. Open a **R terminal**,
 ```R
-install.package("changepoint")
+install.packages("changepoint")
 ```
 - Secondly, you should intsall GenoCOPoint-main.zip from [GenoCOPoint](https://github.com/StellarMech/GenoCOPoint)
   - way: unzip in your folder and directly install it
     ```R
-     install.package("devtools")
+     install.packages("devtools")
      library(devtools)
      install()
     ```
