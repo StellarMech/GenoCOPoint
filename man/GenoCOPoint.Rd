@@ -47,8 +47,8 @@ This function reads a genotype file, a truth file, processes the data, detects C
 \examples{
 # Example usage:
 # Create a temporary input file
-geno_file <- "GenoCOPoint/examples/genofiles/AAACGCTGTGATATAG_smt_genotypes_withname_reads.txt"
-truth_file <- "GenoCOPoint/examples/truthfiles/AAACGCTGTGATATAG_allele_cnts_at_markers_sorted_co_pred.txt"
+geno_file <- "examples/genofiles/AAACGCTGTGATATAG_smt_genotypes_withname_reads.txt"
+truth_file <- "examples/truthfiles/AAACGCTGTGATATAG_allele_cnts_at_markers_sorted_co_pred.txt"
 # Run the function
 result <- GenoCOPoint(geno_file,truth_file,
                       output_pdf = "example_output.pdf",
